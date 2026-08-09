@@ -27,19 +27,22 @@
 
         <nav>
 
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#project">Projects</a>
+            <a href="#certificate">Certifications</a>
+            <a href="#contact">Contact</a>
 
         </nav>
 
-        <button>Resume ↓</button>
+        <button class="resume-button">
+            <a href="assets/Resume.pdf" download="Resume.pdf" target="_blank"> Resume ↓</a>
+        </button>
 
     </header>
 
 
-    <section class="hero">
+    <section class="hero" id="about" data-speed="0.8">
 
         <div class="left">
 
@@ -71,16 +74,16 @@
 
             <div class="buttons">
 
-                <button class="btn1">
-                    Download Resume ↓
+                <button class="btn1 resume-button">
+                    <a href="assets/Resume.pdf" download="Resume.pdf" target="_blank">Download Resume ↓</a>
                 </button>
-                
+
                 <button class="btn2">
                     <a href="#contact">
-                    Contact Me
+                        Contact Me
                     </a>
                 </button>
-                
+
 
             </div>
 
@@ -123,184 +126,94 @@
         </div>
 
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
 
-    <h2>Explore My <span>Skills</span></h2>
+        <h2>Explore My <span>Skills</span></h2>
 
-    <p class="subtitle">
-        Technologies that power my frontend development toolkit
-    </p>
+        <p class="subtitle">
+            Technologies that power my frontend development toolkit
+        </p>
 
-    <div class="skills-container">
+        <div class="skills-container">
 
-        <!-- Card 1 -->
+            <!-- Card 1 -->
 
-        <div class="card">
+            <div class="card">
 
-            <h3>Programming & Tech Stack</h3>
-
-            <p>
-                Building scalable web applications with
-                Python, Django, and modern JavaScript.
-            </p>
-
-            <div class="icons">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
-
-            </div>
-
-        </div>
-
-        <!-- Card 2 -->
-
-        <div class="card">
-
-            <h3>UI/UX & Creative Design</h3>
-
-            <p>
-                Crafting intuitive user experiences with
-                industry-standard design tools.
-            </p>
-
-            <div class="icons">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg">
-
-            </div>
-
-        </div>
-
-        <!-- Card 3 -->
-
-        <div class="card">
-
-            <h3>Tools & Technologies</h3>
-
-            <p>
-                Development tools and deployment platforms
-                used in modern web applications.
-            </p>
-
-            <div class="icons">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
-
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-
-    <section class="projects">
-
-    <h2>Featured <span>Projects</span></h2>
-
-    <p class="subtitle">
-        Here are some of my latest full-stack and web development projects.
-    </p>
-
-    <div class="project-grid">
-
-        <!-- Project 1 -->
-
-        <div class="project-card">
-
-            <div class="project-image">
-                <img src="assets/Ai project.png" alt="">
-            </div>
-
-            <div class="project-info">
-
-                <h3>AI Job Preparation Platform</h3>
+                <h3>Programming & Tech Stack</h3>
 
                 <p>
-                    AI-powered interview preparation platform that analyzes resumes,
-                    generates interview questions, and creates personalized preparation plans.
+                    Building scalable web applications with
+                    Python, Django, and modern JavaScript.
                 </p>
 
-                <div class="tech-stack">
+                <div class="icons">
 
-                    <span>React</span>
-                    <span>Node.js</span>
-                    <span>Express</span>
-                    <span>MongoDB</span>
-                    <span>Gemini AI</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg">
 
-                </div>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg">
 
-                <div class="buttons">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
 
-                    <a href="#" class="live">Live Demo</a>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
 
-                    <a href="#" class="github">GitHub</a>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
 
                 </div>
 
             </div>
 
-        </div>
+            <!-- Card 2 -->
 
-        <!-- Project 2 -->
+            <div class="card">
 
-        <div class="project-card">
-
-            <div class="project-image">
-                <img src="images/project2.png" alt="">
-            </div>
-
-            <div class="project-info">
-
-                <h3>E-Commerce Website</h3>
+                <h3>UI/UX & Creative Design</h3>
 
                 <p>
-                    Modern responsive shopping website with authentication,
-                    shopping cart, payment integration, and admin dashboard.
+                    Crafting intuitive user experiences with
+                    industry-standard design tools.
                 </p>
 
-                <div class="tech-stack">
+                <div class="icons">
 
-                    <span>React</span>
-                    <span>Redux</span>
-                    <span>Express</span>
-                    <span>MongoDB</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg">
 
                 </div>
 
-                <div class="buttons">
+            </div>
 
-                    <a href="#" class="live">Live Demo</a>
+            <!-- Card 3 -->
 
-                    <a href="#" class="github">GitHub</a>
+            <div class="card">
+
+                <h3>Tools & Technologies</h3>
+
+                <p>
+                    Development tools and deployment platforms
+                    used in modern web applications.
+                </p>
+
+                <div class="icons">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg">
+
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg">
 
                 </div>
 
@@ -308,93 +221,335 @@
 
         </div>
 
-    </div>
+    </section>
 
-</section>
+
+    <section class="projects" id="project">
+
+        <h2>Featured <span>Projects</span></h2>
+
+        <p class="subtitle">
+            Here are some of my latest full-stack and web development projects.
+        </p>
+
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="assets/ai photo.PNG" alt="">
+                </div>
+
+                <div class="project-info">
+
+                    <h3>AI Job Preparation Platform</h3>
+
+                    <p>
+                        AI-powered interview preparation platform that analyzes resumes,
+                        generates interview questions, and creates personalized preparation plans.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+                        <span>Gemini AI</span>
+
+                    </div>
+
+                    <div class="buttons">
+
+                        <a href="#" class="github">GitHub
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Project 2 -->
+
+            <div class="project-card">
+
+                <div class="project-image">
+                    <img src="images/project2.png" alt="">
+                </div>
+
+                <div class="project-info">
+
+                    <h3>E-Commerce Website</h3>
+
+                    <p>
+                        Modern responsive shopping website with authentication,
+                        shopping cart, payment integration, and admin dashboard.
+                    </p>
+
+                    <div class="tech-stack">
+
+                        <span>React</span>
+                        <span>Redux</span>
+                        <span>Express</span>
+                        <span>MongoDB</span>
+
+                    </div>
+
+                    <div class="buttons">
+
+                        <a href="#" class="github">GitHub</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="certifications" id="certificate">
+
+        <h2>My <span>Certifications</span></h2>
+
+        <p class="subtitle">
+            Certifications that showcase my technical knowledge and continuous learning.
+        </p>
+
+        <div class="certificate-container">
+
+            <!-- Certificate 1 -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="assets/Capture.PNG" alt="Certificate">
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>JavaScript Programming</h3>
+
+                    <p>
+                        JavaScript Programming course from GeeksforGeeks (GFG)! 🚀 This helped me strengthen my
+                        JavaScript fundamentals and improve my problem-solving skills.
+                    </p>
+
+                    <div class="certificate-info">
+
+                        <span>🏢 GeeksforGeeks</span>
+                        <span>📅 2025</span>
+
+                    </div>
+
+                    <div class="certificate-buttons">
+
+                        <a href="https://media.geeksforgeeks.org/courses/certificates/4922aa414ce26afbb677f93fd594030b.pdf"
+                            class="view-btn">View Certificate</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Certificate 2 -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="assets/mongodb.jpeg" alt="Certificate">
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>MongoDB</h3>
+
+                    <p>
+                        I’ve completed MongoDB certificate from GeeksforGeeks! 🚀 These certificate
+                        helped me strengthen database CRUD operation.
+                    </p>
+
+                    <div class="certificate-info">
+
+                        <span>🏢 GeeksforGeeks</span>
+                        <span>📅 2025</span>
+
+                    </div>
+
+                    <div class="certificate-buttons">
+
+                        <a href="https://media.geeksforgeeks.org/courses/certificates/fbeadda74743048c5e1707cd5bb9f67b.pdf"
+                            class="view-btn">View Certificate</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Certificate 3 -->
+
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="assets/google.jpeg" alt="Certificate">
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>Generative AI</h3>
+
+                    <p>
+                        I’ve completed Generative AI from Google! 🚀 This course helped me understand the fundamentals
+                        of Generative AI and its real-world applications.
+                    </p>
+
+                    <div class="certificate-info">
+
+                        <span>🏢 Google</span>
+                        <span>📅 2024</span>
+
+                    </div>
+
+                    <div class="certificate-buttons">
+
+                        <a href="https://skillshop.exceedlms.com/student/award/ksTDc6JQafSkwCf5hYu5TtCC"
+                            class="view-btn">View Certificate</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+                
+            <div class="certificate-card">
+
+                <div class="certificate-image">
+                    <img src="assets/oracle.PNG" alt="Certificate">
+                </div>
+
+                <div class="certificate-content">
+
+                    <h3>MongoDB</h3>
+
+                    <p>
+                        This certification helped me strengthen my understanding of Agentic AI, AI agents, and
+                        intelligent systems. Excited to keep learning and exploring the future of AI!
+                    </p>
+
+                    <div class="certificate-info">
+
+                        <span>🏢 Oracle</span>
+                        <span>📅 2026</span>
+
+                    </div>
+
+                    <div class="certificate-buttons">
+
+                        <a href="https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC7633777&trackId=AAI26OFA&key=4cb24c72fb8534b6d4f693dd09ce932e67f8f019"
+                            class="view-btn" target="_blank">View Certificate</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
     <section class="contact" id="contact">
 
-    <h2>Get In <span>Touch</span></h2>
+        <h2>Get In <span>Touch</span></h2>
 
-    <p class="subtitle">
-        Have a project in mind? Let's build something amazing together.
-    </p>
+        <p class="subtitle">
+            Have a project in mind? Let's build something amazing together.
+        </p>
 
-    <div class="contact-container">
+        <div class="contact-container">
 
-        <!-- Left Side -->
+            <!-- Left Side -->
 
-        <div class="contact-info">
+            <div class="contact-info">
 
-            <h3>Let's Connect</h3>
+                <h3>Let's Connect</h3>
 
-            <p>
-                I'm always interested in new opportunities,
-                freelance projects, and collaborations.
-            </p>
+                <p>
+                    I'm always interested in new opportunities,
+                    freelance projects, and collaborations.
+                </p>
 
-            <div class="info-box">
-                <i class="fa-solid fa-envelope"></i>
-                <div>
-                    <h4>Email</h4>
-                    <span>priyanshu@example.com</span>
+                <div class="info-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <span>priyanshu@example.com</span>
+                    </div>
                 </div>
+
+                <div class="info-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Phone</h4>
+                        <span>+91 9876543210</span>
+                    </div>
+                </div>
+
+                <div class="info-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <span>India</span>
+                    </div>
+                </div>
+
+                <div class="social">
+
+                    <a href="#"><i class="fab fa-github"></i></a>
+
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+
+                </div>
+
             </div>
 
-            <div class="info-box">
-                <i class="fa-solid fa-phone"></i>
-                <div>
-                    <h4>Phone</h4>
-                    <span>+91 9876543210</span>
-                </div>
-            </div>
+            <!-- Right Side -->
 
-            <div class="info-box">
-                <i class="fa-solid fa-location-dot"></i>
-                <div>
-                    <h4>Location</h4>
-                    <span>India</span>
-                </div>
-            </div>
+            <div class="contact-form">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="fdf702a4-9483-4bd3-be98-6ae180143ebc">
 
-            <div class="social">
+                    <input type="text" placeholder="Enter your name" required>
 
-                <a href="#"><i class="fab fa-github"></i></a>
+                    <input type="email" placeholder="Email Address" required>
 
-                <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <input type="text" placeholder="Subject" required>
 
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                    <textarea rows="6" placeholder="Write your message..." required></textarea>
 
-                <a href="#"><i class="fab fa-twitter"></i></a>
+                    <button type="submit">
+                        Send Message
+                    </button>
+
+                </form>
 
             </div>
 
         </div>
 
-        <!-- Right Side -->
-
-        <div class="contact-form">
-
-            <form>
-
-                <input type="text" placeholder="Enter your name" required>
-
-                <input type="email" placeholder="Email Address" required>
-
-                <input type="text" placeholder="Subject" required>
-
-                <textarea rows="6" placeholder="Write your message..." required></textarea>
-
-                <button type="submit">
-                    Send Message
-                </button>
-
-            </form>
-
-        </div>
-
-    </div>
-
-</section>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="script.js"></script>
 
 </body>
