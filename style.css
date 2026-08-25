@@ -854,25 +854,29 @@ margin-top:35px;
 
 }
 
-.social a{
+.social a {
+    width: 48px;
+    height: 48px;
 
-width:48px;
-height:48px;
+    background: #111;
+    border-radius: 50%;
 
-background:#111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-border-radius:50%;
+    text-decoration: none;
+    color: #fff;
 
-display:flex;
-justify-content:center;
-align-items:center;
+    transition: 0.3s;
 
-text-decoration:none;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
 
-color:#fff;
-
-transition:.3s;
-
+.social a:hover {
+    transform: translateY(-5px);
 }
 
 .social a:hover{
@@ -1071,7 +1075,7 @@ color: white;
 
 .certificate-image{
 
-    height:220px;
+    height:250px;
     overflow:hidden;
 
 }

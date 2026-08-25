@@ -50,36 +50,47 @@ function typeEffect() {
 typeEffect();
 
 
-document.addEventListener("keydown", function (e) {
-    if (e.ctrlKey && e.key.toLowerCase() === "u") {
-        e.preventDefault();
-        alert("Viewing source is disabled.");
-    }
-});
+// document.addEventListener("keydown", function (e) {
+//     if (e.ctrlKey && e.key.toLowerCase() === "u") {
+//         e.preventDefault();
+//         alert("Viewing source is disabled.");
+//     }
+// });
 
-document.addEventListener("keydown", function (e) {
+// document.addEventListener("keydown", function (e) {
 
-    // F12
-    if (e.key === "F12") {
-        e.preventDefault();
-    }
+//     // F12
+//     if (e.key === "F12") {
+//         e.preventDefault();
+//     }
 
-    // Ctrl+Shift+I / Ctrl+Shift+J / Ctrl+Shift+C
-    if (
-        e.ctrlKey &&
-        e.shiftKey &&
-        ["I", "J", "C"].includes(e.key.toUpperCase())
-    ) {
-        e.preventDefault();
-    }
+//     // Ctrl+Shift+I / Ctrl+Shift+J / Ctrl+Shift+C
+//     if (
+//         e.ctrlKey &&
+//         e.shiftKey &&
+//         ["I", "J", "C"].includes(e.key.toUpperCase())
+//     ) {
+//         e.preventDefault();
+//     }
 
-    // Ctrl+U
-    if (e.ctrlKey && e.key.toUpperCase() === "U") {
-        e.preventDefault();
-    }
-});
+//     // Ctrl+U
+//     if (e.ctrlKey && e.key.toUpperCase() === "U") {
+//         e.preventDefault();
+//     }
+// });
 
 
-document.addEventListener("contextmenu", function (e) {
-    e.preventDefault();
-});
+// document.addEventListener("contextmenu", function (e) {
+//     e.preventDefault();
+// });
+
+
+const button = document.getElementById("button")
+
+button.addEventListener("click", ()=>{
+    console.log("Button clicked");
+    setTimeout(() => {
+        window.location.href = "about.html";
+        console.log("Hello")
+}, 5000);
+})
